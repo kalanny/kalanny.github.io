@@ -7,6 +7,6 @@ permalink: /about/
 
 
 ### kasolo tech blog
-markdowns about technology, program, bioinformatics...
+Markdowns about technology, program, bioinformatics...
 
 Welcome!
