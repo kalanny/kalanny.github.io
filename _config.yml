@@ -1,0 +1,64 @@
+### Site info:
+title: kalanny tech blog
+tagline: markdowns about technology, program, bioinfomatics...
+author: kalanny
+email: kalanny@hotmail.com
+description: "This is my blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "blog, technology, programmer, bioinfomatics"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kalanny.github.io/" # the base hostname & protocol for your site
+locale: en_US
+
+### Personal info and site tools info:
+github_username: kalanny
+favicon:     "/images/website_logo.jpg"
+aboutme: Hi, this is kalanny. Welcome to my blog. I hope you will enjoy it. # these are shown on aboutme-sidebar.
+aboutme_photo: "/images/website_logo.jpg" # your photo.
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+      Google_search: "Site Search"
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+      Google_search: "站内搜索"
+
+Blogroll:
+    - name: kalanny tech blog
+      href: http://kalanny.github.io/
+      title: kalanny's blog
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+gems: [jekyll-paginate]
+paginate: 2
+excerpt_separator: <!-- more -->
