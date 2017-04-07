@@ -8,7 +8,7 @@ fullview: false
 
 ### 1. DNA metabarcoding illuminates dietary niche partitioning by African large herbivores
 
-    PNAS 2015 Tyler R. Kartzinel
+    PNAS-2015-Tyler R. Kartzinel
 
 ##### 【摘要】
 
@@ -26,7 +26,7 @@ fullview: false
 
 ### 2. Next Generation Sequencing of Fecal DNA Reveals the Dietary Diversity of the Widespread Insectivorous Predator Daubenton’s Bat (Myotis daubentonii) in Southwestern Finland
 
-    Plos one-2013 Eero-J. Vesterinen
+    Plos ONE-2013-Eero J. Vesterinen
 
 ##### 【摘要】
 
