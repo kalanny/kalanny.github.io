@@ -1,6 +1,6 @@
 ---
 layout: post
-title: metabarcoding abstract
+title: dietary metabarcoding abstract
 categories: [文献阅读, 生物信息]
 tags: [biology, metabarcoding, NGS]
 fullview: false
