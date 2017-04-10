@@ -52,5 +52,5 @@ locales:
 markdown: kramdown
 highlighter: pygments
 gems: [jekyll-paginate]
-paginate: 2
+paginate: 5
 excerpt_separator: <!-- more -->
