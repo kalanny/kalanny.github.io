@@ -1,12 +1,12 @@
 ### Site info:
-title: kalanny tech blog
+title: hsclub tech blog
 tagline: Markdowns about technology, program, bioinfomatics...
 author: kalanny
 email: kalanny@hotmail.com
 description: "markdowns about technology, program, bioinfomatics..." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "blog, python, raspberryPi, technology, programmer, bioinfomatics"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kalanny.github.io/" # the base hostname & protocol for your site
+url: "http://www.hsclub.vip" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
