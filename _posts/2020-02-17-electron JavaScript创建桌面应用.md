@@ -1,6 +1,6 @@
 ---
 layout: post
-title: electron + JavaScript + css创建桌面应用
+title: electron + JavaScript + html创建桌面应用
 categories: [electron]
 tags: [electron]
 fullview: false
@@ -12,8 +12,8 @@ npm config set ELECTRON_MIRROR http://npm.taobao.org/mirrors/electron/
 npm install -g cross-env
 git clone https://github.com/electron/electron-quick-start
 cd electron-quick-start
-cross-env npm_config_electron_mirror="https://npm.taobao.org/mirrors/electron/" npm_config_electron_custom_dir="7.1.10" npm install
-cross-env npm install electron-builder --save-dev
+cross-env npm install --save-dev electron
+cross-env npm install --save-dev electron-builder
 npm start
 ```
 
