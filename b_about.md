@@ -7,6 +7,6 @@ permalink: /about/
 
 
 ### kasolo tech blog
-Markdowns about technology, program, bioinformatics...
+Hua Sheng club Markdowns about technology, program, bioinformatics...
 
 Welcome!
