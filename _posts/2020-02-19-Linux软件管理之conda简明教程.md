@@ -59,6 +59,7 @@ fullview: false
     conda config --get channels
     vim ~/.condarc
     ```
+
 # 使用conda
 
 - 查看已有环境列表
@@ -83,6 +84,7 @@ fullview: false
     ```
 
 # 利用conda安装生物信息软件
+
 - 安装软件
     ```
     conda search 软件名
