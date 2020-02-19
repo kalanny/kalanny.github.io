@@ -49,8 +49,9 @@ locales:
         Google_search: "站内搜索"
 
 ### Build settings
+### highlighter: pygments rouge
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!-- more -->
