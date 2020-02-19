@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Linux Screen超简明教程
+title: Linux软件管理之conda简明教程
 categories: [Linux]
-tags: [Linux, Screen]
+tags: [Linux, conda]
 fullview: false
 ---
 
