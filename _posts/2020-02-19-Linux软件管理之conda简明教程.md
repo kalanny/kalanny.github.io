@@ -21,9 +21,7 @@ fullview: false
 - 安装conda
     ```
     wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
     chmod 777 Miniconda3-latest-Linux-x86_64.sh #给执行权限
-
     bash Miniconda3-latest-Linux-x86_64.sh #运行
     ```
 
