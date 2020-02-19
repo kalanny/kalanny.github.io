@@ -14,6 +14,8 @@ fullview: false
 
 - conda分为anaconda和miniconda，anaconda是包含一些常用包的版本，miniconda则是精简版，只包含 conda 和其依赖，所以推荐使用miniconda。
 
+<br>
+
 # 安装配置conda
 
 > conda官网：https://conda.io/miniconda.html
@@ -59,6 +61,7 @@ fullview: false
     conda config --get channels
     vim ~/.condarc
     ```
+<br>
 
 # 使用conda
 
@@ -82,6 +85,7 @@ fullview: false
     ```
     conda remove -n 环境名称 --all
     ```
+<br>
 
 # 利用conda安装生物信息软件
 
