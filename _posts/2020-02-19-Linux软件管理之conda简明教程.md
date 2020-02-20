@@ -60,10 +60,10 @@ conda config --get channels
 
     查看已经添加的channels
 
-    ```bash
-    conda config --get channels
-    vim ~/.condarc
-    ```
+```bash
+conda config --get channels
+vim ~/.condarc
+```
 <br>
 
 ## 使用conda
@@ -109,6 +109,6 @@ conda config --get channels
     ```
 - 卸载指定软件:
 
-    ```bash
-    conda remove 软件名
-    ```
+```bash
+conda remove 软件名
+```
