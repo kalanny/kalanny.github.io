@@ -49,21 +49,20 @@ fullview: false
 
     这样安装其他包的时候，下载速度会很快
 
-```bash
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
-conda config --set show_channel_urls yes 
-conda config --get channels
-```
+    ```bash
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+    conda config --set show_channel_urls yes 
+    conda config --get channels
+    ```
 
     查看已经添加的channels
-
-```bash
-conda config --get channels
-vim ~/.condarc
-```
+    ```bash
+    conda config --get channels
+    vim ~/.condarc
+    ```
 <br>
 
 ## 使用conda
@@ -108,7 +107,6 @@ vim ~/.condarc
     conda update 软件名
     ```
 - 卸载指定软件:
-
-```bash
-conda remove 软件名
-```
+    ```bash
+    conda remove 软件名
+    ```
