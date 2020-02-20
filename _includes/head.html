@@ -20,7 +20,6 @@
 <meta name="keywords" content="{{ site.keywords }}">
 
 <link rel="icon" href="{{site.favicon| prepend:site.baseurl}}">
-<link rel="stylesheet" href="/css/atelier-lakeside-dark.min.css">
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' |  prepend: site.url }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}" />
@@ -29,8 +28,14 @@
 
 {% include google_search.js %}
 
-{% include /js/highlight.min.js %}
-
-<script src="/js/highlightjs-line-numbers.min.js"></script>
-<script>hljs.initLineNumbersOnLoad();</script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
+<script>
+    $(function () {
+        /* markdown模式下为代码加入行号, 调用插件highlightjs-line-numbers.js */
+        hljs.initHighlightingOnLoad();  
+        hljs.initLineNumbersOnLoad();
+    });
+</script>
 </head>
