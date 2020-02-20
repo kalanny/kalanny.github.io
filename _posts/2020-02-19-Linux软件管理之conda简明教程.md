@@ -48,6 +48,7 @@ fullview: false
 - 添加清华大学的镜像源
 
     这样安装其他包的时候，下载速度会很快
+
     ```bash
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
@@ -56,7 +57,9 @@ fullview: false
     conda config --set show_channel_urls yes 
     conda config --get channels
     ```
+
     查看已经添加的channels
+
     ```bash
     conda config --get channels
     vim ~/.condarc
@@ -105,6 +108,7 @@ fullview: false
     conda update 软件名
     ```
 - 卸载指定软件:
+
     ```bash
     conda remove 软件名
     ```
