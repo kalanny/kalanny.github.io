@@ -18,5 +18,8 @@
 
   <script src="{{ "/js/highlight.min.js" | prepend: site.baseurl }}"></script>  
   <script src="{{ "/js/highlightjs-line-numbers.min.js" | prepend: site.baseurl }}"></script>  
-
+	<script>
+		hljs.initHighlightingOnLoad();
+		hljs.initLineNumbersOnLoad();
+	</script>
 </footer>
