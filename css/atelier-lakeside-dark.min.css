@@ -1,12 +1,6 @@
 .hljs-comment,.hljs-quote{color:#7195a8}.hljs-variable,.hljs-template-variable,.hljs-attribute,.hljs-tag,.hljs-name,.hljs-regexp,.hljs-link,.hljs-name,.hljs-selector-id,.hljs-selector-class{color:#d22d72}.hljs-number,.hljs-meta,.hljs-built_in,.hljs-builtin-name,.hljs-literal,.hljs-type,.hljs-params{color:#935c25}.hljs-string,.hljs-symbol,.hljs-bullet{color:#568c3b}.hljs-title,.hljs-section{color:#257fad}.hljs-keyword,.hljs-selector-tag{color:#6b6bb8}.hljs{display:block;overflow-x:auto;background:#161b1d;color:#7ea2b4;padding:0.5em}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}
 .cnblogs-markdown .hljs {
     border: none !important;
-    margin:0 auto; 
-    padding:0px; 
-    border-spacing:0px; 
-    border-style:none; 
-    border-collapse:collapse;
-    background-color: transparent;
  }
   
   
@@ -40,6 +34,10 @@
     border: none !important;
     border-collapse: collapse;
     word-break: break-word;
+ }
+
+ table{
+    border: none !important;
     margin:0 auto; 
     padding:0px; 
     border-spacing:0px; 
@@ -47,3 +45,6 @@
     border-collapse:collapse;
     background-color: transparent;
  }
+ td{
+    padding-left: 2px;
+}
