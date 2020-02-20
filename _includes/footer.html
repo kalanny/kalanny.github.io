@@ -16,9 +16,22 @@
   <script src="{{ "/js/jquery-1.9.1.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/totop.js" | prepend: site.baseurl }}"></script>  
 
-  <script src="{{ "/js/prism.js" | prepend: site.baseurl }}"></script>
   <script type="text/javascript">
-      ($('pre').addClass("line-numbers").css("white-space", "pre-line"))(jQuery);
+      //numbering for pre>code blocks
+    $(function(){
+      $('pre code').each(function(){
+        var lines = $(this).text().split('\n').length - 1;
+        var $numbering = $('<ul/>').addClass('pre-numbering');
+        $(this)
+          .addClass('has-numbering')
+          .parent()
+          .append($numbering);
+        for(i=1;i<=lines;i++){
+          $numbering.append($('<li/>').text(i));
+        }
+      });
+    });
+
   </script>
 
 
