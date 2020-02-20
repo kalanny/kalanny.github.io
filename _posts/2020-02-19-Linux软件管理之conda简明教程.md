@@ -56,6 +56,11 @@ fullview: false
     conda config --get channels
     ```
 
+    查看已经添加的channels
+    ```bash
+    conda config --get channels
+    vim ~/.condarc
+    ```
 <br>
 
 ## 使用conda
@@ -97,7 +102,7 @@ fullview: false
     ```
 - 更新指定软件:
     ```bash
-    conda remove 软件名
+    conda update 软件名
     ```
 - 卸载指定软件:
     ```bash
