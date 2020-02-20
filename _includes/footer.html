@@ -20,6 +20,7 @@
   <script src="{{ "/js/highlightjs-line-numbers.min.js" | prepend: site.baseurl }}"></script>  
 	<script>
 		hljs.initHighlightingOnLoad();
-		hljs.initLineNumbersOnLoad({singleLine:true});
+    hljs.initLineNumbersOnLoad({singleLine:true});
+    hljs.lineNumbersBlock(myCodeBlock, myOptions);
 	</script>
 </footer>
