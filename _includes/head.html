@@ -28,12 +28,9 @@
 
 {% include google_search.js %}
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
-<script>
-    /* markdown模式下为代码加入行号, 调用插件highlightjs-line-numbers.js */
-    
-    hljs.initLineNumbersOnLoad();
-</script>
-<link rel="stylesheet" href="/css/atelier-lakeside-dark.min.css">
+<script src="/js/prism.js"></script>
+<script type="text/javascript">
+    $('pre').addClass("line-numbers").css("white-space", "pre-wrap");
+  </script>
+<link rel="stylesheet" href="/css/prism.css">
 </head>
