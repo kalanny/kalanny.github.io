@@ -51,7 +51,7 @@ locales:
 ### Build settings
 ### highlighter: pygments rouge
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!-- more -->
