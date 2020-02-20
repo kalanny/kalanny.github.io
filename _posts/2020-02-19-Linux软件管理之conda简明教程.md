@@ -6,7 +6,7 @@ tags: [Linux, conda]
 fullview: false
 ---
 
-# conda 简介
+## conda 简介
 
 - 有很多的生信软件都可以通过conda安装，省去了很多的安装、修bug的烦恼。可以在https://bioconda.github.io/recipes查看是否包含了目标软件。只要一行命令conda install xxx就行了。
 
@@ -16,7 +16,7 @@ fullview: false
 
 <br>
 
-# 安装配置conda
+## 安装配置conda
 
 > conda官网：https://conda.io/miniconda.html
 
@@ -63,7 +63,7 @@ fullview: false
     ```
 <br>
 
-# 使用conda
+## 使用conda
 
 - 查看已有环境列表
     ```
@@ -87,7 +87,7 @@ fullview: false
     ```
 <br>
 
-# 利用conda安装生物信息软件
+## 利用conda安装生物信息软件
 
 - 安装软件
     ```
