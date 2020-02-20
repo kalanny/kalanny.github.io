@@ -16,10 +16,10 @@
   <script src="{{ "/js/jquery-1.9.1.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/totop.js" | prepend: site.baseurl }}"></script>  
 
-  {% include /js/highlight.min.js %}
+  <script src="{{ "/js/highlight.min.js" | prepend: site.baseurl }}"></script>  
   <script src="{{ "/js/highlightjs-line-numbers.min.js" | prepend: site.baseurl }}"></script>  
   <script>
-		//hljs.initHighlightingOnLoad();
+		hljs.initHighlighting();
     hljs.initLineNumbersOnLoad({singleLine:true});
     hljs.lineNumbersBlock(myCodeBlock, myOptions);
 	</script>
