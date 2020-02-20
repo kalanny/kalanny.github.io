@@ -47,8 +47,6 @@ fullview: false
 
 - 添加清华大学的镜像源
 
-    这样安装其他包的时候，下载速度会很快
-
     ```bash
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
