@@ -6,7 +6,12 @@
   
  #cnblogs_post_body th, #cnblogs_post_body td, .cnblogs-post-body th, .cnblogs-post-body td {
     border: none !important;
-    padding: 0;
+    margin:0 auto; 
+    padding:0px; 
+    border-spacing:0px; 
+    border-style:none; 
+    border-collapse:collapse;
+    background-color: transparent;
  }
   
  .postCon {
