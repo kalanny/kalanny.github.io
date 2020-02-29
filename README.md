@@ -1,4 +1,4 @@
-Kalanny tech blog
+Hua sheng club tech blog
 ==========
 
 markdowns about program, technology, bioinformatics...
