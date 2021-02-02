@@ -30,9 +30,9 @@ fullview: true
 
 ### 6.使用putty连接ESP32
 
- ![putty_ESP32](/images/putty_esp32.jpg)
+ ![putty_ESP32](/images/putty_ESP32.jpg)
 
- ![putty_ESP32](/images/putty_esp32_1.jpg)
+ ![putty_ESP32](/images/putty_ESP32_1.jpg)
 
 
 
